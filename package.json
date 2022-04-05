@@ -1,0 +1,24 @@
+{
+  "name": "aerozap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwind -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evelynrodriguezc/AeroZap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evelynrodriguezc/AeroZap/issues"
+  },
+  "homepage": "https://github.com/evelynrodriguezc/AeroZap#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
