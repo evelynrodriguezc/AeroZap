@@ -5,7 +5,8 @@ module.exports = {
       primary: "#CC2D4A",
       secondary: "#8FA206",
       terciary: "#61AEC9",
-      white: "#FFFF"
+      white: "#FFFF",
+      black: "#0000",
     },
     extend: {
       backgroundColor: (theme) => ({

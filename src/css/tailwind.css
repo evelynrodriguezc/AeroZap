@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.Card{
+.card{
     @apply w-48 h-64 shadow-md rounded-lg shrink-0 snap-center transform transition-all hover:-translate-y-4 hover:shadow-xl
+}
+
+.card_title{
+    @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white
+}
+
+.card_description{
+    @apply text-sm pl-8 text-white mr-24
 }
