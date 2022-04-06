@@ -7,6 +7,7 @@ module.exports = {
       terciary: "#61AEC9",
       white: "#FFFF",
       black: "#0000",
+      gray: "#808080"
     },
     extend: {
       backgroundColor: (theme) => ({
