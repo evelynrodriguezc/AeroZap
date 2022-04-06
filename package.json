@@ -20,5 +20,8 @@
   "homepage": "https://github.com/evelynrodriguezc/AeroZap#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.1.7"
   }
 }

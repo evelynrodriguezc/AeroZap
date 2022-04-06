@@ -13,3 +13,9 @@
 .card_description{
     @apply text-sm pl-8 text-white mr-24
 }
+
+@layer utilities {
+	.scrollbar::-webkit-scrollbar {
+        background: transparent
+	}
+}

@@ -9,6 +9,7 @@ module.exports = {
       black: "#0000",
       gray: "#808080"
     },
+    
     extend: {
       backgroundColor: (theme) => ({
         ...theme("colors"),
@@ -33,14 +34,18 @@ module.exports = {
         iceland: "url('../img/iceland.jpg')",
       },
       fontFamily: {
-        Montserrat: ['Montserrat', 'sans-serif'],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
+      width: ['responsive', 'hover', 'focus']
     },
   },
+  
   ringColor:{
     'primary': '#CC2D4A',
     'secondary': '#8FA206',
     'tertiary': '#61AEC9',
-  },  
-  plugins: [],
+  },
+
+  plugins: [
+  ],
 };
